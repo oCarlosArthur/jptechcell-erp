@@ -1,0 +1,31 @@
+# Configuracoes e credenciais locais
+.env
+.env.*
+!.env.example
+app/config/database.local.php
+**/config.local.php
+
+# Dados de clientes, backups, dumps e arquivos gerados
+*.sql
+*.sql.gz
+*.sqlite
+*.sqlite3
+*.db
+*.bak
+*.backup
+*.zip
+*.tar
+*.tgz
+*.log
+storage/*
+!storage/.gitkeep
+public/uploads/*
+!public/uploads/.gitkeep
+
+# Editor, sistema e dependencias
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+vendor/
+node_modules/
