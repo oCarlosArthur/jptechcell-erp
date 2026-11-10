@@ -1,8 +1,14 @@
 # JPTechCell — Sistema de Gestão para Assistência Técnica
 
-Sistema web de gestão de uma assistência técnica de celulares, desenvolvido em **PHP**, com interface administrativa, organização de atendimentos e recursos para acompanhar a operação da loja.
+Sistema web de gestão para assistência técnica de celulares, desenvolvido em **PHP**, com integração a **MySQL/MariaDB**, interface administrativa e funcionalidades para organizar produtos, estoque e outros processos da loja.
 
-> **Status do repositório:** projeto de estudo/desenvolvimento. O código foi separado de uma instalação local do XAMPP para fins de portfólio e documentação. Não há demonstração pública hospedada nem auditoria de segurança concluída.
+## Aplicação em uma loja real
+
+A **JPTechCell é uma loja real**, administrada por um **primo de Carlos Arthur Abe de Almeida**, responsável por este repositório. O sistema é utilizado internamente na loja em **ambiente local (`localhost`)**, com **XAMPP (Apache, PHP e MySQL/MariaDB)**, especialmente para **cadastro de produtos e controle de estoque**.
+
+A aplicação também contém módulos de clientes, vendas, ordens de serviço, financeiro e relatórios. A presença desses módulos no código não significa que todos sejam utilizados diariamente na operação da loja.
+
+> **Sobre esta versão pública:** o repositório documenta uma aplicação com uso real, mas disponibiliza apenas o código para portfólio e estudo. O ambiente operacional funciona localmente; não há demonstração pública hospedada, banco de dados real da loja nem auditoria de segurança concluída.
 
 ## Funcionalidades identificadas no código
 
@@ -25,7 +31,7 @@ A existência de telas e rotinas no código não equivale a uma validação func
 | **PHP 8+** | Lógica do servidor, controladores, modelos e páginas |
 | **MySQL / MariaDB** | Persistência prevista pelo código via PDO |
 | **HTML, CSS e JavaScript** | Interface e interações |
-| **XAMPP** | Ambiente local original de desenvolvimento |
+| **XAMPP** | Ambiente local de desenvolvimento e uso interno na loja (`localhost`) |
 | **ViaCEP / JsBarcode** | Integrações presentes em funcionalidades específicas |
 
 ## Estrutura
@@ -73,8 +79,8 @@ A revisão de publicação removeu a configuração de acesso ao banco embutida 
 
 ## Contexto
 
-O JPTechCell reúne diferentes processos de uma assistência técnica em uma única aplicação, servindo como demonstração prática de desenvolvimento web com PHP, integração com banco de dados e organização de um sistema de gestão.
+O JPTechCell foi aplicado em um cenário comercial real: uma assistência técnica de celulares da família do responsável por este repositório. Seu uso interno em `localhost`, principalmente no controle de estoque, evidencia uma aplicação de tecnologia para apoiar as rotinas da loja. Os demais módulos foram mantidos na documentação conforme sua implementação no código.
 
 ## Portfólio
 
-Projeto compartilhado no portfólio de **Carlos Arthur Abe de Almeida** para demonstrar desenvolvimento de aplicações web em PHP e organização de rotinas de gestão.
+Projeto compartilhado no portfólio de **Carlos Arthur Abe de Almeida** como exemplo de aplicação web em PHP/MySQL utilizada no cotidiano de um negócio real, com foco no controle de estoque e na organização de processos de gestão.
